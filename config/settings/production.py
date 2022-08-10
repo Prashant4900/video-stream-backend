@@ -1,3 +1,7 @@
+print('********************************************************')
+print('****************  production.py  ***********************')
+print('********************************************************')
+
 from django.core.management.utils import get_random_secret_key
 
 # Quick-start development settings - unsuitable for production

@@ -1,3 +1,7 @@
+print('********************************************************')
+print('*******************  local.py  *************************')
+print('********************************************************')
+
 from .base import ALLOWED_HOSTS, BASE_DIR
 
 # Quick-start development settings - unsuitable for production
