@@ -48,7 +48,7 @@ INSTALLED_APPS = [
     'easy_thumbnails',
     'filer',
     'mptt',
-    'import_export',
+    # 'import_export',
     'smart_selects',
     'rest_framework',
 
