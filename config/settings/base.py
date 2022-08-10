@@ -21,7 +21,7 @@ load_dotenv()  # take environment variables from .env.
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 ALLOWED_HOSTS = [
-    'demo-api-stream.herokuapp.com'
+    '*',
 ]
 
 WHITENOISE_USE_FINDERS = True
