@@ -1,0 +1,17 @@
+.image {
+  width: 20px;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.image img {
+  position: relative;
+  width: 20px;
+  border-radius: 8px;
+}
+
+.image:hover img:hover {
+  position: absolute;
+  width: 200px;
+  border-radius: 0;
+}
